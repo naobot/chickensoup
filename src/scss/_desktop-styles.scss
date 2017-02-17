@@ -1,0 +1,46 @@
+// ==========================================================================
+// Desktop Custom Styles
+// ==========================================================================
+
+header {
+  height: 160px;
+  padding-top: 40px;
+  header-img {
+    height: 100px;
+    img {
+    }
+  }
+  .navs {
+    height: 100px;
+  }
+}
+
+.book-nav {
+  .menu-item {
+    font-size: 1rem;
+
+    &:not(.non-link) {
+      a {
+        .en::before {
+          content: 'CH ';
+        }
+        &:not(.router-link-active) {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .oi {
+    display: none;
+  }
+}
+
+.comic-reader {
+  .preloader {
+    width: 100%; height: 1209px;
+    img {
+      position: absolute;
+      top: 500px;
+    }
+  }
+}

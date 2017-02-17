@@ -1,0 +1,45 @@
+// ==========================================================================
+// Tablet Custom Styles
+// ==========================================================================
+
+header {
+  height: 100px;
+  padding-top: 40px;
+}
+
+main {
+
+  section {
+    .comic-cover {
+      text-align: center;
+      img {
+        max-height: initial;
+      }
+    }
+
+    .post-photo {
+      img {
+        width: 100%;
+      }
+    }
+
+    .headshot {
+      text-align: center;
+    }
+
+  }
+}
+
+.comic-reader {
+  .preloader {
+    width: 100%; min-height: 695px;
+    img {
+      position: absolute;
+      top: 320px;
+    }
+  }
+}
+
+footer {
+  font-size: 0.75rem;
+}
